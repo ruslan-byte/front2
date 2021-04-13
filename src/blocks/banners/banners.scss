@@ -1,0 +1,779 @@
+.container-index
+{
+max-width: 355px;
+padding: 0;	
+whitd:100%;}
+.banners
+{
+	&__gallery
+	{
+		height: 175px;
+		width: 100%;
+		margin:10px auto 10px auto;
+		position: relative;
+		&__item
+		{
+			&__photo
+			{
+				display: block;
+				position: absolute;
+				width: 100%;
+				background: #CCFF90;
+				height: 100%;
+
+				svg
+				{
+					position: absolute;
+					left:136px;
+					top:60px;
+				}
+			}
+			&__button
+			{
+				display:none;
+				
+				svg
+				{
+					display: none;
+				
+				}
+			}
+			&__sites
+			{
+				position: absolute;
+				left:120px;
+				top:148px;
+				&__site
+				{
+					display: inline-block;
+					width: 25px;
+					height: 2px;
+					background: white;
+					opacity: 0.5;
+					&_active
+					{
+						display: inline-block;
+						width: 25px;
+						height: 2px;
+						background: white;
+						opacity: 1;
+					}
+
+				}
+			}
+
+		}
+	}
+	&__book-of-the-day
+	{
+		width: 100%;
+		background: #fff;
+		margin: 0 0 10px 0;
+		padding: 20px;
+		&__title
+		{
+			margin: 0;
+			float:left;
+			font-family: roboto;
+			font-weight: 500;
+		}
+		&__timer
+		{
+			height: 25px;
+			margin: 0;
+			float:right;
+			font-size: 12px;
+			padding: 2px;
+			background: rgba(255,122,0,0.15);
+			color:#FF7A00;
+			border-radius: 5px;
+			padding:5px 10px; 
+			font-family: roboto;
+			font-weight: 500;
+
+		}
+		&__picture
+		{
+			display: inline;
+			clear: both;
+			margin:45px 0 0 15px;
+			padding: 0 0 0 0;
+			margin-bottom: 0;
+
+			img
+			{
+
+				margin:0 auto;
+				padding: 0;
+			}
+		}
+		&__subscription
+		{
+			&__tag
+			{
+				font-family: Roboto;
+				font-size: 12px;
+				font-style: normal;
+				text-align: left;
+				margin: 7px 0 0 0 ;
+				height: 15px;
+
+			}
+			&__name
+			{
+				font-family: Roboto;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 19px;
+				letter-spacing: 0px;
+				text-align: left;
+				margin:7px 0;
+				color: #1C294D;
+			}
+			&__author
+			{
+				font-family: Roboto;
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 15px;
+				letter-spacing: -0.10000000149011612px;
+				text-align: left;
+				margin-bottom: 0;
+				color: #1C294D;
+
+
+			}
+			&__price
+			{
+				font-family: Roboto;
+				font-size: 18px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 20px;
+				letter-spacing: 0px;
+				text-align: left;
+				color:black;
+				margin-top: 8px;
+				margin-bottom: 0;
+			}
+		}
+		&__buy
+		{
+			display: flex;
+			margin:11px 0 0 0;
+			overflow:visible;
+			padding: 0;
+			height: 40px;
+			vertical-align: top;
+			overflow:hidden;
+			white-space: nowrap;
+
+			&__to-basket
+			{
+				border: 1px solid #EEEEEE;
+				box-sizing: border-box;
+				border-radius: 5px;
+				width: 265px;
+				height: 40px;
+				margin-right:10px;
+				font-family: Roboto;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 15px;
+				letter-spacing: 0px;
+				vertical-align: top;
+				display: flex;
+				justify-content: center;
+				align-items: center;	
+
+				svg
+				{
+					margin:2px 11px 0 0;
+				}
+
+			}
+			&__favorites
+			{
+				width: 40px;
+				height: 40px;
+				border-radius: 5px;
+				border: 1px solid #EEEEEE;
+				svg
+				{
+					margin-top: 6px;
+				}
+			}
+
+
+		}
+	}
+	&__banner
+	{
+		height: 140px;
+		display: block;
+		margin-bottom:10px;
+		img
+		{
+			width: 100%;
+		}
+	}
+
+} 
+
+
+
+
+@media(min-width: 426px) and (max-width: 760px)
+{
+	.container-index
+	{
+		max-width: 600px;
+		width: 100%;
+		padding: 0;
+	}
+	.banners
+	{
+		&__gallery
+		{
+			height: 200px;
+			width: 100%;
+			margin:10px 0;
+			position: relative;
+
+			&__item
+			{
+				&__photo
+				{
+					margin: 0;
+					display: block;
+					position: absolute;
+					width: 100%;
+					background: #CCFF90;
+					height: 100%;
+
+					svg
+					{
+						position: absolute;
+						left:42%;
+						top:35%;
+					}
+				}
+				&__button
+				{
+					display: block;
+					height: 30px;
+					width: 30px;	
+					background: #f9f9f9;
+					opacity:0.8;
+					z-index: 2;
+					position: absolute;
+					top:80px;
+					left:2%;
+					padding-top: 8px;
+
+					svg
+					{
+						display: block;
+						margin:auto;
+					}
+					&:last-of-type
+					{
+
+						left:91%;
+						svg
+						{
+						
+						}
+					}
+				} 
+				&__sites
+				{
+					position: absolute;
+					left:40%;
+					top:80%;
+					&__site
+					{
+						display: inline-block;
+						width: 25px;
+						height: 2px;
+						background: white;
+						opacity: 0.5;
+						&_active
+						{
+							display: inline-block;
+							width: 25px;
+							height: 2px;
+							background: white;
+							opacity: 1;
+						}
+
+					}
+				}
+
+			}
+		}
+		&__book-of-the-day
+		{
+			display: block;
+			width: 50%;
+			background: #fff;
+			margin: 0 auto 10px auto;
+			padding: 20px;
+			&__title
+			{
+				margin: 0;
+				float:left;
+				font-family: roboto;
+				font-weight: 500;
+			}
+			&__timer
+			{
+				height: 25px;
+				margin: 0;
+				float:right;
+				font-size: 12px;
+				padding: 2px;
+				background: rgba(255,122,0,0.15);
+				color:#FF7A00;
+				border-radius: 5px;
+				padding:5px 10px; 
+				font-family: roboto;
+				font-weight: 500;
+
+			}
+			&__picture
+			{
+				display: block;
+				clear: both;
+				padding: 0 auto 0 auto;
+				margin-bottom: 0;
+				margin: 10px auto;
+				margin-top: 45px;
+			}
+			&__subscription
+			{
+				&__tag
+				{
+					font-family: Roboto;
+					font-size: 12px;
+					font-style: normal;
+					text-align: left;
+					margin: 15px 0 0 0 ;
+					height: 15px;
+
+				}
+				&__name
+				{
+					font-family: Roboto;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 19px;
+					letter-spacing: 0px;
+					text-align: left;
+					margin:7px 0;
+					color: #1C294D;
+				}
+				&__author
+				{
+					font-family: Roboto;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 15px;
+					letter-spacing: -0.10000000149011612px;
+					text-align: left;
+					margin-bottom: 0;
+					color: #1C294D;
+
+
+				}
+				&__price
+				{
+					font-family: Roboto;
+					font-size: 18px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: 20px;
+					letter-spacing: 0px;
+					text-align: left;
+					color:black;
+					margin-top: 8px;
+					margin-bottom: 0;
+				}
+			}
+			&__buy
+			{
+				display: flex;
+				margin:11px 0 0 0;
+				overflow:visible;
+				padding: 0;
+				height: 40px;
+				vertical-align: top;
+				overflow:hidden;
+				white-space: nowrap;
+
+				&__to-basket
+				{
+					border: 1px solid #EEEEEE;
+					box-sizing: border-box;
+					border-radius: 5px;
+					width: 265px;
+					height: 40px;
+					margin-right:10px;
+					font-family: Roboto;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 15px;
+					letter-spacing: 0px;
+					vertical-align: top;
+					display: flex;
+					justify-content: center;
+					align-items: center;	
+
+					svg
+					{
+						margin:2px 11px 0 0;
+					}
+
+				}
+				&__favorites
+				{
+					width: 40px;
+					height: 40px;
+					border-radius: 5px;
+					border: 1px solid #EEEEEE;
+					svg
+					{
+						margin-top: 6px;
+					}
+				}
+
+
+			}
+		}
+		&__banner
+		{	
+			display: inline-block;
+			height: 140px;
+			width: 49%;
+			margin: 0 auto;
+			margin-bottom:10px;
+			img
+			{
+				width: 100%;
+			}
+		}
+
+	}
+
+
+
+}
+@media(min-width: 761px) 
+{
+	.container-index
+	{
+		max-width: 1140px;
+		width: 100%;
+		padding: 0;
+	}
+	.banners
+	{
+		display: grid;
+		grid-template-columns:360px 360px 360px;
+	 	grid-template-rows: 350px 140px; 
+	 	grid-column-gap: 30px;
+	    grid-row-gap: 30px;
+	    margin:30px 0;
+	    @media(max-width: 1140px) 
+		{
+		grid-template-columns:360px 360px auto;
+ 		grid-template-rows: 350px 140px; 
+		grid-column-gap: 20px;
+        grid-row-gap: 15px;
+
+	    	@media(max-width: 1050px) 
+	    	{
+	    		grid-template-columns:auto auto 30%;
+	    		&__gallery
+				{
+					width: 100%;
+					grid-column-start:1;
+					grid-column-end:3; 
+				}
+				&__book-of-the-day
+				{ height: auto;
+					&__subscription
+					{
+						&__tag
+						{
+							display: none;
+						}
+					}	
+				} 
+	    	}
+		}
+		&__gallery
+		{
+
+			grid-column: 1;
+			grid-row: 1;
+			height: 350px;
+			width: 750px;
+			position: relative;
+			margin:0;
+
+			&__item
+			{
+
+				&__photo
+				{
+					margin: 0;
+					display: block;
+					position: absolute;
+					width: 100%;
+					background: #CCFF90;
+					height: 100%;
+
+					svg
+					{
+						position: absolute;
+						left:38%;
+						// top:34%;
+						top:121px;
+						width: 180px;
+						height: 110px;
+					}
+				}
+				&__button
+				{
+					display: block;
+					height: 40px;
+					width: 40px;	
+					background: #fdfdfd;
+					opacity:0.9;
+					z-index: 2;
+					position: absolute;
+					top:44%;
+					left:3.6%;
+					padding-top: 14px;
+					border-radius: 5px;
+
+					svg
+					{
+						display: block;
+						margin: auto;
+					}
+					&:last-of-type
+					{
+
+						left:91%;
+						svg
+						{
+						
+						}
+					}
+				} 
+				&__sites
+				{
+					position: absolute;
+					left:316px;
+					top:314px;
+					&__site
+					{
+						display: inline-block;
+						width: 25px;
+						height: 2px;
+						background: white;
+						opacity: 0.5;
+						&_active
+						{
+							display: inline-block;
+							width: 25px;
+							height: 2px;
+							background: white;
+							opacity: 1;
+						}
+
+					}
+				}
+
+			}
+		}
+		&__book-of-the-day
+		{
+			grid-column:3;
+			grid-row-start: 1;
+			grid-row-end:3;
+			display: block;
+			width: 100%;
+			background: #fff;
+			margin: 0;
+			padding: 20px;
+			&__title
+			{
+				margin: 0;
+				float:left;
+				font-family: roboto;
+				font-weight: 500;
+			}
+			&__timer
+			{
+				height: 25px;
+				margin: 0;
+				float:right;
+				font-size: 12px;
+				padding: 2px;
+				background: rgba(255,122,0,0.15);
+				color:#FF7A00;
+				border-radius: 5px;
+				padding:5px 10px; 
+				font-family: roboto;
+				font-weight: 500;
+
+			}
+			&__picture
+			{
+				display: block;
+				clear: both;
+				padding: 0 auto 0 auto;
+				margin-bottom: 0;
+				margin: 10px auto;
+				margin-top: 45px; 
+				width: 167px;
+				height: 250px;
+			
+			}
+			&__subscription
+			{
+				&__tag
+				{
+					font-family: Roboto;
+					font-size: 12px;
+					font-style: normal;
+					text-align: left;
+					margin: 15px 0 0 0 ;
+					height: 15px;
+
+				}
+				&__name
+				{
+					font-family: Roboto;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 19px;
+					letter-spacing: 0px;
+					text-align: left;
+					margin:7px 0;
+					color: #1C294D;
+				}
+				&__author
+				{
+					font-family: Roboto;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 400;
+					line-height: 15px;
+					letter-spacing: -0.10000000149011612px;
+					text-align: left;
+					margin-bottom: 0;
+					color: #1C294D;
+
+
+				}
+				&__price
+				{
+					font-family: Roboto;
+					font-size: 18px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: 20px;
+					letter-spacing: 0px;
+					text-align: left;
+					color:black;
+					margin-top: 8px;
+					margin-bottom: 0;
+				}
+			}
+			&__buy
+			{
+				display: flex;
+				margin:11px 0 0 0;
+				overflow:visible;
+				padding: 0;
+				height: 40px;
+				vertical-align: top;
+				overflow:hidden;
+				white-space: nowrap;
+
+				&__to-basket
+				{
+					border: 1px solid #EEEEEE;
+					box-sizing: border-box;
+					border-radius: 5px;
+					width: 146px;
+					height: 40px;
+					margin-right:10px;
+					font-family: Roboto;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 15px;
+					letter-spacing: 0px;
+					vertical-align: top;
+					display: flex;
+					justify-content: center;
+					align-items: center;	
+
+					svg
+					{
+						margin:2px 11px 0 0;
+					}
+
+				}
+				&__favorites
+				{
+					width: 40px;
+					height: 40px;
+					border-radius: 5px;
+					border: 1px solid #EEEEEE;
+					svg
+					{
+						margin-top: 6px;
+					}
+				}
+
+
+			}
+		}
+		&__banner
+		{	
+			display: block;
+			height: 140px;
+			width: 100%;
+			grid-column: 1;
+			grid-row: 2;
+			
+			img
+			{
+				width: 100%;
+			}
+			&:last-of-type
+			{
+
+			grid-column-start: 2;
+			grid-row-start: 2;
+			}
+		}
+
+	}
+
+ }
+
+

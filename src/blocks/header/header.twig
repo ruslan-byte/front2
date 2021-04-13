@@ -1,0 +1,64 @@
+<header class ="header">
+	<ul class="header__items-top">
+		<div class = "container">
+			<a href="#" class="header__items-top__item">
+				{% include "../../assets/svg/geolocation.svg" %} 
+				<span>Москва</span>
+			</a>
+			<a href="#" class="header__items-top__item">
+				{% include "../../assets/svg/delivery.svg" %} 
+				<span>Доставка и оплата</span>
+			</a>
+			<a href="#" class="header__items-top__item">
+				{% include "../../assets/svg/address-time.svg" %} 
+				<span>Адрес и часы работы</span>
+			</a>
+			<div class="header__left">
+				<a href="#" class="header__items-top__item">
+					{% include "../../assets/svg/email.svg" %} 
+					<span>market@estatut.ru</span>
+				</a>
+				<a href="#" class="header__items-top__item">
+					{% include "../../assets/svg/phone.svg" %} 
+					<span>8 (968) 660-65-50</span>
+				</a>
+				<a href="#" class="header__items-top__item">
+				{% include "../../assets/svg/help.svg" %}
+				</a>
+			</div>
+		</div>
+	</ul>
+	<div class="header__items-center">
+		<div class="container">
+			<a class="header__burger" href="#">
+				{% include "../../assets/svg/menu-burger.svg" %}
+			</a>
+			<a href ="#" class="header__items-center__item header__logo"><img src="img/logo.png" alt="" class ="" width="43.75px" height="35px"></a>
+			<form action="" class ="header__items-center__item header__search">
+				<input type="text"  placeholder="Что будем искать?">
+				<button>{% include "../../assets/svg/loupedark.svg" %} Искать</button>
+			</form>
+			<ul class ="header__items-center__item-list">
+				<a href="#" >
+					{% include "../../assets/svg/bookmark.svg" %} Отложено
+				</a>
+				<a href="#" class ="header__Log-in">
+					{% include "../../assets/svg/smile.svg" %} Войти
+				</a>
+				<a href="#" class ="header__basket">
+					{% include "../../assets/svg/basket.svg" %} <span class ="header__basket__notifi">10</span> Корзина
+				</a>
+			</ul>
+		</div>
+	</div>
+	<nav class="header__menu">
+		<div class="container">
+			<a href="#">{% include "../../assets/svg/menu-burger.svg" %} Каталог</a>
+			<a href="#" class="header__menu_item">Авторы</a>
+			<a href="#" class="header__menu_item">Новинки</a>
+			<a href="#" class="header__menu_item">{% include "../../assets/svg/tag.svg" %} Скидки</a>
+			<a href="#" class="header__menu_item">Партнёрам</a>
+			<a href="#" class="header__menu_item">Мы</a>
+		</div>
+	</nav>
+</header>

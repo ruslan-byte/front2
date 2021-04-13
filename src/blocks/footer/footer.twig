@@ -1,0 +1,109 @@
+{# index.twig #}
+
+{% block footer %}
+	<footer class ="footer">
+		<div class="footer__top">
+			<div class ="cantainer">
+				<div class="footer__top__soc">
+					<a href="#" class ="footer__facebook_gray">{% include "../../assets/svg/facebook_gray.svg" %} </a>
+					<a href="#" class ="footer__facebook_white">{% include "../../assets/svg/facebook_white.svg" %} </a>
+					<a href="#" class ="footer__vk">{% include "../../assets/svg/vk.svg" %} </a>
+					<a href="#" class ="footer__instagramm_gray" >{% include "../../assets/svg/instagramm_gray.svg" %} </a>
+					<a href="#" class ="footer__instagramm_white">{% include "../../assets/svg/instagramm_white.svg" %} </a>
+					<a href="#"class ="footer__instagramm_twitter">{% include "../../assets/svg/tw.svg" %} </a> 
+				</div>
+				<div class="footer__top__sub">
+					<a href ="#" class="footer__logo"><img src="img/logo.png" alt="" class ="" width="43.75px" height="35px"></a>
+					<form class ="footer__form">
+						<input type="text" placeholder= "Подписаться на рассылку" class ="footer__field">
+						<button class ="footer__button">
+							{% include "../../assets/svg/airplane.svg" %} 
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<ul class="footer__content">
+			<div class="container">
+				<ul class ="footer__content__item">
+					<h3>Покупателям {% include "../../assets/svg/check-mark.svg" %}</h3>
+					<a href="#">Наша почта</a>
+					<a href="#">Оплата и доставка</a>
+					<a href="#">Вопросы и ответы</a>
+				</ul>
+				<ul class ="footer__content__item">
+					<h3>Издательство{% include "../../assets/svg/check-mark.svg" %}</h3>
+					<a href="#">О компании</a>
+					<a href="#">Авторам</a>
+					<a href="#">Вакансии</a>
+					<a href="#">Контакты</a>
+				</ul>
+				<ul class ="footer__content__item">
+					<h3>Книги{% include "../../assets/svg/check-mark.svg" %}</h3>
+					<a href="#">Все категории</a>
+					<a href="#">Бестселлеры</a>
+					<a href="#">Новинки</a>
+					<a href="#">Скидки и акции</a>
+				</ul>
+				<ul class ="footer__content__item">
+					<h3>Прайс-лист{% include "../../assets/svg/check-mark.svg" %}</h3>
+					<a href="#">
+					{% include "../../assets/svg/file.svg" %} 
+						<p>Скачать прайс-лист</p>
+						<p>PDF, 12 Mb</p>
+					</a>				</ul>
+				<ul class ="footer__content__item">
+					<h3>Телефон и Email</h3>
+					<a href="#">
+					{% include "../../assets/svg/email.svg" %} market@estatut.ru
+					</a>
+					<a href="#">
+					{% include "../../assets/svg/phone.svg" %} 8 (968) 660-65-50
+					</a>
+				</ul>
+			</div>
+		</ul>
+
+		<div class="footer__bottom">
+		<div class="container-index">
+				<div class ="footer__bottom__part">
+					<a href="#">
+						<div class="container">
+							© 2020 Издательство «Статут»
+						</div>
+					</a>
+					<a href="#">
+						<div class="container">
+						{% include "../../assets/svg/geolocation.svg" %}
+						ул. Лобачевского, 92, корп. 2 119454, г. Москва
+						</div>
+					</a>
+				</div>
+				<div class ="footer__bottom__part">
+					<a href="#">
+						<div class="container">
+							{% include "../../assets/svg/phone.svg" %} 8 (968) 660-65-50 {% include "../../assets/svg/help.svg" %}
+						</div>
+					</a>
+					<a href="#">
+						<div class="container">
+							{% include "../../assets/svg/email.svg" %} market@estatut.ru
+						</div>
+					</a>
+				</div>
+				<div class ="footer__bottom__part">
+					<div class="container">
+						<a href="#">
+						Политика конфеденциальности
+						</a>
+						<a href="#">
+						Договор оферты
+						</a>
+					</div>
+				</div>
+		</div>
+		</div>
+
+	</footer>
+{% endblock %}
