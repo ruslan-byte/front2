@@ -1,8 +1,9 @@
-.container-index
+.container_index
 {
-max-width: 355px;
-padding: 0;	
-whitd:100%;}
+	max-width: 355px;	
+	padding: 0;	
+	width:90%;
+}
 .banners
 {
 	&__gallery
@@ -20,7 +21,7 @@ whitd:100%;}
 				width: 100%;
 				background: #CCFF90;
 				height: 100%;
-
+				border-radius:5px;
 				svg
 				{
 					position: absolute;
@@ -30,12 +31,10 @@ whitd:100%;}
 			}
 			&__button
 			{
-				display:none;
-				
+				display:none;		
 				svg
 				{
 					display: none;
-				
 				}
 			}
 			&__sites
@@ -58,18 +57,17 @@ whitd:100%;}
 						background: white;
 						opacity: 1;
 					}
-
 				}
 			}
-
 		}
 	}
-	&__book-of-the-day
+	&__book_of_the_day
 	{
 		width: 100%;
 		background: #fff;
 		margin: 0 0 10px 0;
 		padding: 20px;
+		border-radius:5px;
 		&__title
 		{
 			margin: 0;
@@ -90,7 +88,6 @@ whitd:100%;}
 			padding:5px 10px; 
 			font-family: roboto;
 			font-weight: 500;
-
 		}
 		&__picture
 		{
@@ -99,10 +96,8 @@ whitd:100%;}
 			margin:45px 0 0 15px;
 			padding: 0 0 0 0;
 			margin-bottom: 0;
-
 			img
 			{
-
 				margin:0 auto;
 				padding: 0;
 			}
@@ -117,7 +112,6 @@ whitd:100%;}
 				text-align: left;
 				margin: 7px 0 0 0 ;
 				height: 15px;
-
 			}
 			&__name
 			{
@@ -142,8 +136,6 @@ whitd:100%;}
 				text-align: left;
 				margin-bottom: 0;
 				color: #1C294D;
-
-
 			}
 			&__price
 			{
@@ -169,8 +161,7 @@ whitd:100%;}
 			vertical-align: top;
 			overflow:hidden;
 			white-space: nowrap;
-
-			&__to-basket
+			&__to_basket
 			{
 				border: 1px solid #EEEEEE;
 				box-sizing: border-box;
@@ -188,12 +179,10 @@ whitd:100%;}
 				display: flex;
 				justify-content: center;
 				align-items: center;	
-
 				svg
 				{
 					margin:2px 11px 0 0;
 				}
-
 			}
 			&__favorites
 			{
@@ -206,8 +195,6 @@ whitd:100%;}
 					margin-top: 6px;
 				}
 			}
-
-
 		}
 	}
 	&__banner
@@ -220,18 +207,13 @@ whitd:100%;}
 			width: 100%;
 		}
 	}
-
-} 
-
-
-
-
+}
 @media(min-width: 426px) and (max-width: 760px)
 {
-	.container-index
+	.container_index
 	{
 		max-width: 600px;
-		width: 100%;
+		width: 98%;
 		padding: 0;
 	}
 	.banners
@@ -309,13 +291,11 @@ whitd:100%;}
 							background: white;
 							opacity: 1;
 						}
-
 					}
 				}
-
 			}
 		}
-		&__book-of-the-day
+		&__book_of_the_day
 		{
 			display: block;
 			width: 50%;
@@ -363,7 +343,6 @@ whitd:100%;}
 					text-align: left;
 					margin: 15px 0 0 0 ;
 					height: 15px;
-
 				}
 				&__name
 				{
@@ -388,8 +367,6 @@ whitd:100%;}
 					text-align: left;
 					margin-bottom: 0;
 					color: #1C294D;
-
-
 				}
 				&__price
 				{
@@ -415,8 +392,7 @@ whitd:100%;}
 				vertical-align: top;
 				overflow:hidden;
 				white-space: nowrap;
-
-				&__to-basket
+				&__to_basket
 				{
 					border: 1px solid #EEEEEE;
 					box-sizing: border-box;
@@ -434,12 +410,10 @@ whitd:100%;}
 					display: flex;
 					justify-content: center;
 					align-items: center;	
-
 					svg
 					{
 						margin:2px 11px 0 0;
 					}
-
 				}
 				&__favorites
 				{
@@ -452,8 +426,6 @@ whitd:100%;}
 						margin-top: 6px;
 					}
 				}
-
-
 			}
 		}
 		&__banner
@@ -468,18 +440,14 @@ whitd:100%;}
 				width: 100%;
 			}
 		}
-
 	}
-
-
-
 }
 @media(min-width: 761px) 
 {
-	.container-index
+	.container_index
 	{
 		max-width: 1140px;
-		width: 100%;
+		width: 98%;
 		padding: 0;
 	}
 	.banners
@@ -490,7 +458,7 @@ whitd:100%;}
 	 	grid-column-gap: 30px;
 	    grid-row-gap: 30px;
 	    margin:30px 0;
-	    @media(max-width: 1140px) 
+	    @media(max-width: 1160px) 
 		{
 		grid-template-columns:360px 360px auto;
  		grid-template-rows: 350px 140px; 
@@ -506,7 +474,7 @@ whitd:100%;}
 					grid-column-start:1;
 					grid-column-end:3; 
 				}
-				&__book-of-the-day
+				&__book_of_the_day
 				{ height: auto;
 					&__subscription
 					{
@@ -544,7 +512,6 @@ whitd:100%;}
 					{
 						position: absolute;
 						left:38%;
-						// top:34%;
 						top:121px;
 						width: 180px;
 						height: 110px;
@@ -605,7 +572,7 @@ whitd:100%;}
 
 			}
 		}
-		&__book-of-the-day
+		&__book_of_the_day
 		{
 			grid-column:3;
 			grid-row-start: 1;
@@ -711,8 +678,7 @@ whitd:100%;}
 				vertical-align: top;
 				overflow:hidden;
 				white-space: nowrap;
-
-				&__to-basket
+				&__to_basket
 				{
 					border: 1px solid #EEEEEE;
 					box-sizing: border-box;
@@ -730,12 +696,10 @@ whitd:100%;}
 					display: flex;
 					justify-content: center;
 					align-items: center;	
-
 					svg
 					{
 						margin:2px 11px 0 0;
 					}
-
 				}
 				&__favorites
 				{
@@ -748,32 +712,24 @@ whitd:100%;}
 						margin-top: 6px;
 					}
 				}
-
-
 			}
 		}
 		&__banner
 		{	
 			display: block;
 			height: 140px;
-			width: 100%;
+			width: 90%;
 			grid-column: 1;
 			grid-row: 2;
-			
 			img
 			{
 				width: 100%;
 			}
 			&:last-of-type
 			{
-
 			grid-column-start: 2;
 			grid-row-start: 2;
 			}
 		}
-
 	}
-
  }
-
-
