@@ -2,7 +2,7 @@
 {
  margin-top:20px;
  background:white;
-.container_index
+.container
 {
 	padding:0;
 }
@@ -154,7 +154,7 @@
 	{	
 		display: flex;
 		flex-direction: column-reverse;
-		.container_index
+		.container
 		{
 			display: flex;
 			flex-direction: column-reverse;
@@ -237,7 +237,7 @@
 	.footer
 	{
 		margin-top:20px;
-		.container_index
+		.container
 		{
 			padding:20px;
 		}
@@ -622,7 +622,7 @@
 	{
 		display: flex;
 		flex-direction: row;
-		.container_index
+		.container
 		{
 			display: flex;
 			flex-direction: row;
