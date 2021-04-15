@@ -1875,7 +1875,7 @@ li.L9 {
   display: none;
 }
 
-.soon_arrivals__item-bottom {
+.soon_arrivals__item_bottom {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5735,11 +5735,11 @@ html {
     font-weight: bold;
   }
 
-  .soon_arrivals .container-index {
+  .soon_arrivals .container_index {
     background: white;
   }
 
-  .soon_arrivals__item-top {
+  .soon_arrivals__item_top {
     position: relative;
     width: 100%;
     padding: 18px 10px 18px 10px;
@@ -5747,7 +5747,7 @@ html {
     border-bottom: 1px solid rgba(28, 41, 77, 0.15);
   }
 
-  .soon_arrivals__item-top__title {
+  .soon_arrivals__item_top__title {
     display: inline-block;
     font-family: Roboto;
     font-size: 20px;
@@ -5758,7 +5758,7 @@ html {
     text-align: left;
   }
 
-  .soon_arrivals__item-top__buttons {
+  .soon_arrivals__item_top__buttons {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5774,7 +5774,7 @@ html {
     border-radius: 5px;
   }
 
-  .soon_arrivals__item-top__buttons__button_left {
+  .soon_arrivals__item_top__buttons__button_left {
     width: 30px;
     border: none;
     display: -webkit-box;
@@ -5791,12 +5791,12 @@ html {
     align-items: center;
   }
 
-  .soon_arrivals__item-top__buttons__button_left svg {
+  .soon_arrivals__item_top__buttons__button_left svg {
     height: 6px;
     width: 4px;
   }
 
-  .soon_arrivals__item-top__buttons__button_right {
+  .soon_arrivals__item_top__buttons__button_right {
     width: 30px;
     border: none;
     display: -webkit-box;
@@ -5814,7 +5814,7 @@ html {
     border-left: 1px solid rgba(28, 41, 77, 0.15);
   }
 
-  .soon_arrivals__item-top__buttons__button_right svg {
+  .soon_arrivals__item_top__buttons__button_right svg {
     height: 6px;
     width: 4px;
   }
