@@ -1,12 +1,12 @@
-.new-arrivals
+.soon_arrivals
 { 
-	 .container-index
+	 .container_index
 	{
 		background: white;
 		border-radius:5px;
 	}
 
-	&__item-top
+	&__item_top
 	{
 		position: relative;
 		width: 100%;
@@ -63,7 +63,7 @@
 			}
 		}
 	}
-	&__item-list
+	&__item_list
 	{	
 		&__book
 		{	
@@ -284,7 +284,7 @@
 						{
 							margin-right: 4px; 
 						}
-						.new-arrivals__item-list__book:nth-of-type(2) &
+						.soon_arrivals__item_list__book:nth-of-type(2) &
 						{
 							opacity: 0;
 						}
@@ -303,7 +303,7 @@
 				overflow:hidden;
 				white-space: nowrap;
 
-				&__to-basket
+				&__to_basket
 				{
 					border: 1px solid #EEEEEE;
 					box-sizing: border-box;
@@ -371,7 +371,7 @@
 }
 @media(min-width: 426px) and (max-width: 760px)
 {
-	.new-arrivals
+	.soon_arrivals
 	{
 		 .container-index
 		{
@@ -438,7 +438,7 @@
 				}
 			}
 		}
-		&__item-list
+		&__item_list
 		{	
 			&__book
 			{	
@@ -655,7 +655,7 @@
 							{
 								margin-right: 4px; 
 							}
-							.new-arrivals__item-list__book:nth-of-type(2) &
+							.soon_arrivals__item_list__book:nth-of-type(2) &
 							{
 								opacity: 0;
 							}
@@ -674,7 +674,7 @@
 					overflow:hidden;
 					white-space: nowrap;
 
-					&__to-basket
+					&__to_basket
 					{
 						border: 1px solid #EEEEEE;
 						box-sizing: border-box;
@@ -719,13 +719,13 @@
 }
 @media(min-width: 761px) 
 {
-	.new-arrivals
+	.soon_arrivals
 	{
-		 .container-index
+		 .container_index
 		{
 			background: white;
 		}
-		&__item-top
+		&__item_top
 		{
 			position: relative;
 			width: 100%;
@@ -784,7 +784,7 @@
 				}
 			}
 		}
-		&__item-list
+		&__item_list
 		{	
 			display: grid;
 			grid-template-columns: 278px 292px 293px 275px;
@@ -825,7 +825,7 @@
 					grid-column: 1;
 
 
-					.new-arrivals__item-list__book__picture
+					.soon_arrivals__item_list__book__picture
 					{
 						margin: 5px 61px 15px 42px;
 
@@ -837,25 +837,25 @@
 					display: block;
 					grid-column: 2;
 					padding-left: 34px;
-					.new-arrivals__item-list__book__picture
+					.soon_arrivals__item_list__book__picture
 					{
 						margin: 5px 60px 15px 45px;
 
 					}
-					.new-arrivals__item-list__book__feature
+					.soon_arrivals__item_list__book__feature
 					{
 						left:35px;
 						top:10px;
 					}
-					.new-arrivals__item-list__book__feature__best
+					.soon_arrivals__item_list__book__feature__best
 					{
 						display:none;
 					}
-					.new-arrivals__item-list__book__feature__stock
+					.soon_arrivals__item_list__book__feature__stock
 					{
 						display: none;
 					}
-					.new-arrivals__item-list__book__feature__new
+					.soon_arrivals__item_list__book__feature__new
 					{
 						display: block;
 					}
@@ -865,21 +865,21 @@
 					display: block;
 					grid-column: 3;
 					padding-left: 34px;
-					.new-arrivals__item-list__book__picture
+					.soon_arrivals__item_list__book__picture
 					{
 						margin: 5px 60px 15px 38px;
 
 					}
-					.new-arrivals__item-list__book__feature
+					.soon_arrivals__item_list__book__feature
 					{
 						left:35px;
 						top:10px;
 					}
-					.new-arrivals__item-list__book__feature__best
+					.soon_arrivals__item_list__book__feature__best
 					{
 						display:none;
 					}
-					.new-arrivals__item-list__book__feature__stock
+					.soon_arrivals__item_list__book__feature__stock
 					{
 						display: none;
 					}
@@ -889,12 +889,12 @@
 					display: block;
 					grid-column: 4;
 					padding-left: 34px;
-					.new-arrivals__item-list__book__picture
+					.soon_arrivals__item_list__book__picture
 					{
 						margin: 5px 60px 15px 42px;
 
 					}
-					.new-arrivals__item-list__book__feature
+					.soon_arrivals__item_list__book__feature
 					{
 						left:35px;
 						top:20px;
@@ -1133,7 +1133,7 @@
 							{
 								margin-right: 4px;
 							}
-							.new-arrivals__item-list__book:nth-of-type(2) &
+							.soon_arrivals__item_list__book:nth-of-type(2) &
 							{
 								opacity: 1;
 							}
@@ -1151,7 +1151,7 @@
 					overflow:hidden;
 					white-space: nowrap;
 
-					&__to-basket
+					&__to_basket
 					{
 						border: 1px solid #EEEEEE;
 						box-sizing: border-box;
@@ -1190,7 +1190,7 @@
 				}
 			}
 		}
-		&__item-bottom
+		&__item_bottom
 		{
 			display: flex;
 			justify-content: center;
