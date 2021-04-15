@@ -3847,7 +3847,7 @@ html {
   }
 
   .new_arrivals__item_list__book:nth-child(3) .new_arrivals__item_list__book__picture {
-    margin: 5px 60px 15px 38px;
+    margin: 5px 60px 15px 45px;
   }
 
   .new_arrivals__item_list__book:nth-child(3) .new_arrivals__item_list__book__feature {
@@ -3861,6 +3861,10 @@ html {
 
   .new_arrivals__item_list__book:nth-child(3) .new_arrivals__item_list__book__feature__stock {
     display: none;
+  }
+
+  .new_arrivals__item_list__book:nth-child(3) .new_arrivals__item_list__book__feature__new {
+    display: block;
   }
 
   .new_arrivals__item_list__book:nth-child(4) {
@@ -4369,7 +4373,7 @@ html {
   }
 
   .soon_arrivals__item_list__book:nth-child(3) .soon_arrivals__item_list__book__picture {
-    margin: 5px 60px 15px 38px;
+    margin: 5px 60px 15px 45px;
   }
 
   .soon_arrivals__item_list__book:nth-child(3) .soon_arrivals__item_list__book__feature {
@@ -4383,6 +4387,10 @@ html {
 
   .soon_arrivals__item_list__book:nth-child(3) .soon_arrivals__item_list__book__feature__stock {
     display: none;
+  }
+
+  .soon_arrivals__item_list__book:nth-child(3) .soon_arrivals__item_list__book__feature__new {
+    display: block;
   }
 
   .soon_arrivals__item_list__book:nth-child(4) {
