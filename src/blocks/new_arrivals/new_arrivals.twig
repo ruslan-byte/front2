@@ -1,138 +1,137 @@
-<div class="new_arrivals">
-	<div class="container">
+<div class="new_arrivals container">
 		<div class="new_arrivals__item_top">
-			<h1 class ="new_arrivals__item_top__title">
+			<h1 class ="new_arrivals__title">
 				Новые поступления
 			</h1>
-			<form action="" class="new_arrivals__item_top__buttons">
-				<button class = "new_arrivals__item_top__buttons__button_left">
-					{% include "../../assets/svg/arrow2.svg" %}
+			<div action="" class="new_arrivals__buttons">
+				<button class = "new_arrivals__button_left">
+					{% include "../../assets/svg/arrow-left.svg" %}
 				</button>
-				<button class = "new_arrivals__item_top__buttons__button_right">
-					{% include "../../assets/svg/arrow1.svg" %}
+				<button class = "new_arrivals__button_right">
+					{% include "../../assets/svg/arrow-right.svg" %}
 				</button>
-			</form>
-		</div>	
+			</div>
+		</div>
 		<ul class="new_arrivals__item_list">
-			<figure class="new_arrivals__item_list__book">
-				<img src="img/book.png" alt="" class="new_arrivals__item_list__book__picture">
-				<div class="new_arrivals__item_list__book__feature">
-					<a href="#" class="new_arrivals__item_list__book__feature__best">
+			<figure class="new_arrivals__book">
+				<img src="img/book.png" alt="" class="new_arrivals__picture">
+				<div class="new_arrivals__feature">
+					<a href="#" class="new_arrivals__best">
 						Бестселлер
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__stock">
+					<a href="#" class="new_arrivals__stock">
 						1+1=3
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__new">
+					<a href="#" class="new_arrivals__new">
 						Новинка
 					</a>
 				</div>
-				<figcaption class ="new_arrivals__item_list__book__subscription">
-					<p class ="new_arrivals__item_list__book__subscription__tag">
+				<figcaption class ="new_arrivals__subscription">
+					<p class ="new_arrivals__tag">
 						Корпоративное право
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__name">
+					<p class ="new_arrivals__name">
 						Инвестирование: способы, риски, субъекты : моногра...
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__author">
+					<p class ="new_arrivals__author">
 						Майфат А.В.
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__price">
+					<p class ="new_arrivals__price">
 						4 450 ₽
 					</p>
-					<div class="new_arrivals__item_list__book__subscription__faeture">
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__appraisal">
+					<div class="new_arrivals__faeture">
+						<a href="#" class="new_arrivals__appraisal">
 							{% include "../../assets/svg/star.svg" %}
 							4.9
 						</a>
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__recommendation">
+						<a href="#" class="new_arrivals__recommendation">
 							{% include "../../assets/svg/like.svg" %}
 							89% рекомендуют
 						</a>
 					</div>
 				</figcaption>
-				<form action="" class="new_arrivals__item_list__book__buy">
-					<button class ="new_arrivals__item_list__book__buy__to_basket">
+				<div action="" class="new_arrivals__buy">
+					<button class ="new_arrivals__to_basket">
 						{% include "../../assets/svg/basket-orange.svg" %}
 						В корзину
 					</button>
-					<button class ="new_arrivals__item_list__book__buy__favorites">
+					<button class ="new_arrivals__favorites">
 						{% include "../../assets/svg/bookmark.svg" %}
 					</button>
-				</form>
+				</div>
 			</figure>
-			<figure class="new_arrivals__item_list__book">
-				<img src="img/book.png" alt="" class="new_arrivals__item_list__book__picture">
-				<div class="new_arrivals__item_list__book__feature">
-					<a href="#" class="new_arrivals__item_list__book__feature__best">
+			<figure class="new_arrivals__book">
+				<img src="img/book.png" alt="" class="new_arrivals__picture">
+				<div class="new_arrivals__feature">
+					<a href="#" class="new_arrivals__best">
 						Бестселлер
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__stock">
+					<a href="#" class="new_arrivals__stock">
 						1+1=3
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__new">
+					<a href="#" class="new_arrivals__new">
 						Новинка
 					</a>
 				</div>
-				<figcaption class ="new_arrivals__item_list__book__subscription">
-					<p class ="new_arrivals__item_list__book__subscription__tag">
+				<figcaption class ="new_arrivals__subscription">
+					<p class ="new_arrivals__tag">
 						Корпоративное право
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__name">
+					<p class ="new_arrivals__name">
 						Инвестирование: способы, риски, субъекты : моногра...
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__author">
+					<p class ="new_arrivals__author">
 						Майфат А.В.
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__price">
+					<p class ="new_arrivals__price">
 						4 450 ₽
 					</p>
-					<div class="new_arrivals__item_list__book__subscription__faeture">
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__appraisal">
+					<div class="new_arrivals__faeture">
+						<a href="#" class="new_arrivals__appraisal">
 							{% include "../../assets/svg/star.svg" %}
 							4.9
 						</a>
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__recommendation">
+						<a href="#" class="new_arrivals__recommendation">
 							{% include "../../assets/svg/like.svg" %}
 							89% рекомендуют
 						</a>
 					</div>
 				</figcaption>
-				<form action="" class="new_arrivals__item_list__book__buy">
-					<button class ="new_arrivals__item_list__book__buy__to_basket">
+				<div action="" class="new_arrivals__buy">
+					<button class ="new_arrivals__to_basket">
 						{% include "../../assets/svg/basket-orange.svg" %}
 						В корзину
 					</button>
-					<button class ="new_arrivals__item_list__book__buy__favorites">
+					<button class ="new_arrivals__favorites">
 						{% include "../../assets/svg/bookmark.svg" %}
 					</button>
-				</form>
+				</div>
 			</figure>
-			<figure class="new_arrivals__item_list__book">
-				<img src="img/book.png" alt="" class="new_arrivals__item_list__book__picture">
-				<div class="new_arrivals__item_list__book__feature">
-					<a href="#" class="new_arrivals__item_list__book__feature__best">
+			<figure class="new_arrivals__book">
+				<img src="img/book.png" alt="" class="new_arrivals__picture">
+				<div class="new_arrivals__feature">
+					<a href="#" class="new_arrivals__best">
 						Бестселлер
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__stock">
+					<a href="#" class="new_arrivals__stock">
 						1+1=3
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__new">
+					<a href="#" class="new_arrivals__new">
 						Новинка
 					</a>
 				</div>
-				<figcaption class ="new_arrivals__item_list__book__subscription">
-					<p class ="new_arrivals__item_list__book__subscription__tag">
+				<figcaption class ="new_arrivals__subscription">
+					<p class ="new_arrivals__tag">
 						Корпоративное право
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__name">
+					<p class ="new_arrivals__name">
 						Инвестирование: способы, риски, субъекты : моногра...
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__author">
+					<p class ="new_arrivals__author">
 						Майфат А.В.
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__price">
-						<font class = "new_arrivals__item_list__book__subscription__price_red">
+					<p class ="new_arrivals__price">
+						<font class = "new_arrivals__price_red">
 							984 ₽
 							<sub>
 								1 284 ₽
@@ -142,77 +141,76 @@
 							</sub>
 						</font>
 					</p>
-					<div class="new_arrivals__item_list__book__subscription__faeture">
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__appraisal">
+					<div class="new_arrivals__faeture">
+						<a href="#" class="new_arrivals__appraisal">
 						{% include "../../assets/svg/star.svg" %}
 						4.9
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__subscription__faeture__recommendation">
+					<a href="#" class="new_arrivals__recommendation">
 						{% include "../../assets/svg/like.svg" %}
 						89% рекомендуют
 					</a>
 					</div>
 				</figcaption>
-				<form action="" class="new_arrivals__item_list__book__buy">
-					<button class ="new_arrivals__item_list__book__buy__to_basket">
+				<div action="" class="new_arrivals__buy">
+					<button class ="new_arrivals__to_basket">
 						{% include "../../assets/svg/basket-orange.svg" %}
-						В корзину	
+						В корзину
 					</button>
-					<button class ="new_arrivals__item_list__book__buy__favorites">
+					<button class ="new_arrivals__favorites">
 						{% include "../../assets/svg/bookmark.svg" %}
 					</button>
-				</form>
+				</div>
 			</figure>
-			<figure class="new_arrivals__item_list__book">
-				<img src="img/book.png" alt="" class="new_arrivals__item_list__book__picture">
-				<div class="new_arrivals__item_list__book__feature">
-					<a href="#" class="new_arrivals__item_list__book__feature__best">
+			<figure class="new_arrivals__book">
+				<img src="img/book.png" alt="" class="new_arrivals__picture">
+				<div class="new_arrivals__feature">
+					<a href="#" class="new_arrivals__best">
 						Бестселлер
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__stock">
+					<a href="#" class="new_arrivals__stock">
 						1+1=3
 					</a>
-					<a href="#" class="new_arrivals__item_list__book__feature__new">
+					<a href="#" class="new_arrivals__new">
 						Новинка
 					</a>
 				</div>
-				<figcaption class ="new_arrivals__item_list__book__subscription">
-					<p class ="new_arrivals__item_list__book__subscription__tag">
+				<figcaption class ="new_arrivals__subscription">
+					<p class ="new_arrivals__tag">
 						Корпоративное право
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__name">
+					<p class ="new_arrivals__name">
 						Инвестирование: способы, риски, субъекты : моногра...
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__author">
+					<p class ="new_arrivals__author">
 						Майфат А.В.
 					</p>
-					<p class ="new_arrivals__item_list__book__subscription__price">
+					<p class ="new_arrivals__price">
 						4 450 ₽
 					</p>
-					<div class="new_arrivals__item_list__book__subscription__faeture">
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__appraisal">
+					<div class="new_arrivals__faeture">
+						<a href="#" class="new_arrivals__appraisal">
 							{% include "../../assets/svg/star.svg" %}
 							4.9
 						</a>
-						<a href="#" class="new_arrivals__item_list__book__subscription__faeture__recommendation">
+						<a href="#" class="new_arrivals__recommendation">
 							{% include "../../assets/svg/like.svg" %}
 							89% рекомендуют
 						</a>
 					</div>
 				</figcaption>
-				<form action="" class="new_arrivals__item_list__book__buy">
-					<button class ="new_arrivals__item_list__book__buy__to_basket">
+				<div action="" class="new_arrivals__buy">
+					<button class ="new_arrivals__to_basket">
 						{% include "../../assets/svg/basket-orange.svg" %}
 						В корзину
 					</button>
-					<button class ="new_arrivals__item_list__book__buy__favorites">
+					<button class ="new_arrivals__favorites">
 						{% include "../../assets/svg/bookmark.svg" %}
 					</button>
-				</form>
+				</div>
 			</figure>
-		</ul>	
+		</ul>
 		<a class="new_arrivals__item_bottom" href="#">
 				Показать все книги
 		</a>
-	</div>
 </div>

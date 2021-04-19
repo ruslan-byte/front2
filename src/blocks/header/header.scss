@@ -1,6 +1,6 @@
 .header
 {
-	height: 70px;
+	height: 71px;
 	border-bottom: 1px solid #ECECEC;
 	background: #fff;
 }
@@ -15,7 +15,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	max-width: 355px;
-	height:72px;
+	height:71px;
 	&__item
 	{
 		display: flex;
@@ -92,6 +92,10 @@
 		left:-33px;
 		top:11px;
 		margin:0;
+		svg
+		{
+			fill:#1C294D;
+		}
 	}
 }
 .header__menu
@@ -155,7 +159,8 @@
 			display: flex;
 			justify-content: flex-end;
 			margin-left:auto;
-			color:black;
+			color: #1C294D;
+
 			font-weight: 500;
 		}
 		.header__left &__item
@@ -212,7 +217,7 @@
 		{
 			display: flex;
 			align-items: flex-end;
-			color:black;
+			color:#1C294D;
 			margin-right:30px;
 			height: 18px;
 			font-family: roboto;
@@ -295,7 +300,13 @@
 			{
 				font-style:Bold;
 				margin-right:9px;
+				fill:#fff;
 
+			}
+			path
+			{
+				fill:#fff;
+				fill-opacity:1;
 			}
 		}
 	}
@@ -328,7 +339,7 @@
 		{
 			display: flex;
 			align-items: flex-start;
-			color:black;
+			color:#1C294D;
 			margin-right:26px;
 			margin-left:0;
 			margin-top:0;
@@ -358,9 +369,10 @@
 	}
 	.header__items_center
 	{
+		max-width: none;
 		.header__search
 		{
-			max-width: none;
+			max-width: 520px;
 			width: 100%;
 		}
 		&__item_list
@@ -372,7 +384,7 @@
 		{
 			display: flex;
 			align-items: flex-end;
-			color:black;
+			color:#1C294D;
 			margin-right:5px;
 			height: 18px;
 			font-family: roboto;

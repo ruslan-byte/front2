@@ -3,107 +3,151 @@
 {% block footer %}
 	<footer class ="footer">
 		<div class="footer__top">
-			<div class ="container">
-				<div class="footer__top__soc">
-					<a href="#" class ="footer__facebook_gray">{% include "../../assets/svg/facebook_gray.svg" %} </a>
-					<a href="#" class ="footer__facebook_white">{% include "../../assets/svg/facebook_white.svg" %} </a>
-					<a href="#" class ="footer__vk">{% include "../../assets/svg/vk.svg" %} </a>
-					<a href="#" class ="footer__instagramm_gray" >{% include "../../assets/svg/instagramm_gray.svg" %} </a>
-					<a href="#" class ="footer__instagramm_white">{% include "../../assets/svg/instagramm_white.svg" %} </a>
-					<a href="#"class ="footer__instagramm_twitter">{% include "../../assets/svg/tw.svg" %} </a> 
+			<div class="container">
+				<div class="footer__soc">
+					<a href="#" class ="footer__facebook_gray">
+						{% include "../../assets/svg/facebook_gray.svg" %}
+					</a>
+					<a href="#" class ="footer__facebook_white">
+						{% include "../../assets/svg/facebook_white.svg" %}
+					</a>
+					<a href="#" class ="footer__vk">
+					{% include "../../assets/svg/vk.svg" %}
+					</a>
+					<a href="#" class ="footer__instagramm_gray" >
+					{% include "../../assets/svg/instagramm_gray.svg" %}
+					</a>
+					<a href="#" class ="footer__instagramm_white">
+					{% include "../../assets/svg/instagramm_white.svg" %}
+					</a>
+					<a href="#"class ="footer__twitter">
+					{% include "../../assets/svg/tw.svg" %}
+					</a>
 				</div>
-				<div class="footer__top__sub">
-					<a href ="#" class="footer__logo"><img src="img/logo.png" alt="" class ="" width="43.75px" height="35px"></a>
+				<div class="footer__sub">
+					<a href ="#" class="footer__logo">
+						<img src="img/logo.png" alt="" class ="" width="43.75px" height="35px">
+					</a>
 					<form class ="footer__form">
 						<input type="text" placeholder= "Подписаться на рассылку" class ="footer__field">
 						<button class ="footer__button">
-							{% include "../../assets/svg/airplane.svg" %} 
+							{% include "../../assets/svg/airplane.svg" %}
 						</button>
 					</form>
 				</div>
 			</div>
 		</div>
-		
-		<ul class="footer__content">
-			<div class="container">
-				<ul class ="footer__content__item">
-					<h3>Покупателям {% include "../../assets/svg/check-mark.svg" %}</h3>
-					<a href="#">Наша почта</a>
-					<a href="#">Оплата и доставка</a>
-					<a href="#">Вопросы и ответы</a>
-				</ul>
-				<ul class ="footer__content__item">
-					<h3>Издательство{% include "../../assets/svg/check-mark.svg" %}</h3>
-					<a href="#">О компании</a>
-					<a href="#">Авторам</a>
-					<a href="#">Вакансии</a>
-					<a href="#">Контакты</a>
-				</ul>
-				<ul class ="footer__content__item">
-					<h3>Книги{% include "../../assets/svg/check-mark.svg" %}</h3>
-					<a href="#">Все категории</a>
-					<a href="#">Бестселлеры</a>
-					<a href="#">Новинки</a>
-					<a href="#">Скидки и акции</a>
-				</ul>
-				<ul class ="footer__content__item">
-					<h3>Прайс-лист{% include "../../assets/svg/check-mark.svg" %}</h3>
-					<a href="#">
-					{% include "../../assets/svg/file.svg" %} 
-						<p>Скачать прайс-лист</p>
-						<p>PDF, 12 Mb</p>
-					</a>				</ul>
-				<ul class ="footer__content__item">
-					<h3>Телефон и Email</h3>
-					<a href="#">
+		<ul class="footer__content container">
+			<ul class ="footer__item">
+				<h3  class ="footer__title">
+					Покупателям
+					{% include "../../assets/svg/check-mark.svg" %}
+				</h3>
+				<a href="#" class ="footer__point">
+					Наша почта
+				</a>
+				<a href="#" class ="footer__point">
+					Оплата и доставка
+				</a>
+				<a href="#" class ="footer__point">
+					Вопросы и ответы
+				</a>
+			</ul>
+			<ul class ="footer__item">
+				<h3  class ="footer__title">
+					Издательство
+					{% include "../../assets/svg/check-mark.svg" %}
+				</h3>
+				<a href="#" class ="footer__point">
+					О компании
+				</a>
+				<a href="#" class ="footer__point">
+					Авторам
+				</a>
+				<a href="#" class ="footer__point">
+					Вакансии
+				</a>
+				<a href="#" class ="footer__point">
+					Контакты
+				</a>
+			</ul>
+			<ul class ="footer__item">
+				<h3  class ="footer__title">
+					Книги
+					{% include "../../assets/svg/check-mark.svg" %}
+				</h3>
+				<a href="#" class ="footer__point">
+					Все категории
+				</a>
+				<a href="#" class ="footer__point">
+					Бестселлеры
+				</a>
+				<a href="#" class ="footer__point">
+					Новинки
+				</a>
+				<a href="#" class ="footer__point">
+					Скидки и акции
+				</a>
+			</ul>
+			<ul class ="footer__item">
+				<h3  class ="footer__title">
+					Прайс-лист
+					{% include "../../assets/svg/check-mark.svg" %}
+				</h3>
+				<a href="#" class ="footer__point">
+					{% include "../../assets/svg/file.svg" %}
+					<p class ="footer__file_info">Скачать прайс-лист</p>
+					<p class ="footer__file_info">PDF, 12 Mb</p>
+				</a>				</ul>
+			<ul class ="footer__item">
+				<h3  class ="footer__title">Телефон и Email</h3>
+				<a href="#" class ="footer__point">
 					{% include "../../assets/svg/email.svg" %} market@estatut.ru
-					</a>
-					<a href="#">
+				</a>
+				<a href="#" class ="footer__point">
 					{% include "../../assets/svg/phone.svg" %} 8 (968) 660-65-50
-					</a>
-				</ul>
-			</div>
+				</a>
+			</ul>
 		</ul>
-
-		<div class="footer__bottom">
-		<div class="container">
-				<div class ="footer__bottom__part">
-					<a href="#">
-						<div class="container">
-							© 2020 Издательство «Статут»
-						</div>
-					</a>
-					<a href="#">
-						<div class="container">
+		<div class="footer__bottom container">
+			<div class ="footer__part">
+				<a href="#" class ="footer__point">
+					<div class="container">
+						© 2020 Издательство «Статут»
+					</div>
+				</a>
+				<a href="#" class ="footer__point">
+					<div class="container">
 						{% include "../../assets/svg/geolocation.svg" %}
 						ул. Лобачевского, 92, корп. 2 119454, г. Москва
-						</div>
-					</a>
-				</div>
-				<div class ="footer__bottom__part">
-					<a href="#">
-						<div class="container">
-							{% include "../../assets/svg/phone.svg" %} 8 (968) 660-65-50 {% include "../../assets/svg/help.svg" %}
-						</div>
-					</a>
-					<a href="#">
-						<div class="container">
-							{% include "../../assets/svg/email.svg" %} market@estatut.ru
-						</div>
-					</a>
-				</div>
-				<div class ="footer__bottom__part">
-					<div class="container">
-						<a href="#">
-						Политика конфеденциальности
-						</a>
-						<a href="#">
-						Договор оферты
-						</a>
 					</div>
+				</a>
+			</div>
+			<div class ="footer__part">
+				<a href="#" class ="footer__point">
+					<div class="container">
+						{% include "../../assets/svg/phone.svg" %}
+						8 (968) 660-65-50
+						{% include "../../assets/svg/help.svg" %}
+					</div>
+				</a>
+				<a href="#" class ="footer__point">
+					<div class="container">
+						{% include "../../assets/svg/email.svg" %}
+						market@estatut.ru
+					</div>
+				</a>
+			</div>
+			<div class ="footer__part">
+				<div class="container">
+					<a href="#" class ="footer__point">
+						Политика конфеденциальности
+					</a>
+					<a href="#" class ="footer__point">
+						Договор оферты
+					</a>
 				</div>
+			</div>
 		</div>
-		</div>
-
 	</footer>
 {% endblock %}

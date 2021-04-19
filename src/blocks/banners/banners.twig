@@ -1,13 +1,13 @@
 <div class="banners container">
 	<div class="banners__gallery">
 		<a href="#" class="banners__photo">
-			{% include "../../assets/svg/2=3.svg" %}
+			<img src="img/gallery-photo.png" alt="2=3">
 		</a>
 		<a href="#" class="banners__button">
-			{% include "../../assets/svg/arrow2.svg" %}
+			{% include "../../assets/svg/arrow-left.svg" %}
 		</a>
 		<a href="#" class="banners__button">
-			{% include "../../assets/svg/arrow1.svg" %}
+			{% include "../../assets/svg/arrow-right.svg" %}
 		</a>
 		<div class="banners__sites">
 			<a href="#" class="banners__site_active">
@@ -30,32 +30,36 @@
 		<img src="img/book.png" class ="banners__picture">
 		<figcaption class ="banners__subscription">
 			<p class ="banners__tag">
-			Корпоративное право
+				Корпоративное право
 			</p>
 			<p class ="banners__name">
-			Инвестирование: способы, риски, субъекты : монография
+				Инвестирование: способы, риски, субъекты : монография
 			</p>
 			<p class ="banners__author">
-			Майфат А.В.
+				Майфат А.В.
 			</p>
 			<p class ="banners__price">
-			4 450 ₽
+				4 450 ₽
 			</p>
 		</figcaption>
 		<div action="" class="banners__buy">
 			<button class ="banners__to_basket">
-			{% include "../../assets/svg/basket-orange.svg" %}
-			В корзину
+				{% include "../../assets/svg/basket-orange.svg" %}
+				В корзину
 			</button>
 			<button class ="banners__favorites">
-			{% include "../../assets/svg/bookmark.svg" %}
+				{% include "../../assets/svg/bookmark.svg" %}
 			</button>
 		</div>
 	</figure>
 	<a href="#" class="banners__banner">
-	<img src="img/banner2.png" alt="">
+		{% include "../../assets/svg/banner_line_one.svg" %}
+		{% include "../../assets/svg/banner_text_one.svg" %}
+		{% include "../../assets/svg/banner_one.svg" %}
 	</a>
 	<a href="#" class="banners__banner">
-	<img src="img/banner1.png" alt="">
+		{% include "../../assets/svg/banner_line_two.svg" %}
+		{% include "../../assets/svg/banner_text_two.svg" %}
+		{% include "../../assets/svg/banner_two.svg" %}
 	</a>
 </div>

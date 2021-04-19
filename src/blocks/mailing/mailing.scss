@@ -12,53 +12,50 @@
 	margin-top:10px;
 	margin-bottom:10px;
 	padding: 20px 10px;
-	&__title
-	{
-		display: block;
-		width:80%;
-		align-self: flex-start;
-		color:white;
-		font-size: 18px;
-		font-weight: bold;
-		z-index: 2;
-		&__two-hundred
-		{
-			position: relative;
-		}
-		&__two-hundred svg
-		{
-			position: absolute;
-			top:-20%;
-			left:-25%;
-			z-index: -1;
-		}
-	}
-	&__input
-	{
-		width: 335px;
-		height: 40px;
-		border:none;
-		border-radius: 5px;
-		padding-left: 15px;
-		font-size: 14px;
-		color:rgba(28,41,77,0.5);
-	}
-	&__button
-	{
-		width: 335px;
-		height: 40px;
-		border-radius: 5px;
-		border:1px solid white;
-		font-size: 14px;
-		margin-top:10px;
-		color:white;
-		font-size: 14px;
-		font-weight: bold;
-
-	}
-
 }
-
+.mailing__title
+{
+	display: block;
+	width:80%;
+	align-self: flex-start;
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	z-index: 2;
+	.mailing__two-hundred
+	{
+		position: relative;
+	}
+	.mailing__two-hundred svg
+	{
+		position: absolute;
+		top:-20%;
+		left:-25%;
+		z-index: -1;
+	}
+}
+.mailing__input
+{
+	width: 335px;
+	height: 40px;
+	border:none;
+	border-radius: 5px;
+	padding-left: 15px;
+	font-size: 14px;
+	color:rgba(28,41,77,0.5);
+}
+.mailing__button
+{
+	width: 335px;
+	height: 40px;
+	border-radius: 5px;
+	border:1px solid white;
+	font-size: 14px;
+	margin-top:10px;
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+}
 @media(min-width: 426px) and (max-width: 760px)
 {
 	.mailing
@@ -75,51 +72,51 @@
 		margin-top:10px;
 		margin-bottom:10px;
 		padding: 20px 10px;
-		&__title
-		{
-			display: block;
-			width:100%;
-			align-self: flex-start;
-			color:white;
-			font-size: 14px;
-			font-weight: bold;
-			&__two-hundred
-			{
-				position: relative;
-				z-index: 2;
-			}
-			&__two-hundred svg
-			{
-				position: absolute;
-				top:-20%;
-				left:-20%;
-				z-index: -1;
-			}
-		}
-		&__input
-		{
-			display: inline-block;
-			width: 70%;
-			height: 60px;
-			border:none;
-			border-radius: 5px;
-			padding-left: 15px;
-			font-size: 14px;
-			color:rgba(28,41,77,0.5);
-		}
-		&__button
-		{
-			display: inline-block;
-			width: 25%;
-			height: 60px;
-			border-radius: 5px;
-			border:1px solid white;	
-			font-size: 14px;
-			margin-top:10px;
-			color:white;
-			font-size: 14px;
-			font-weight: bold;
-		}
+	}
+	.mailing__title
+	{
+		display: block;
+		width:100%;
+		align-self: flex-start;
+		color:white;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.mailing__two-hundred
+	{
+		position: relative;
+		z-index: 2;
+	}
+	.mailing__two-hundred svg
+	{
+		position: absolute;
+		top:-20%;
+		left:-20%;
+		z-index: -1;
+	}
+	.mailing__input
+	{
+		display: inline-block;
+		width: 70%;
+		height: 60px;
+		border:none;
+		border-radius: 5px;
+		padding-left: 15px;
+		font-size: 14px;
+		color:rgba(28,41,77,0.5);
+	}
+	.mailing__button
+	{
+		display: inline-block;
+		width: 25%;
+		height: 60px;
+		border-radius: 5px;
+		border:1px solid white;	
+		font-size: 14px;
+		margin-top:10px;
+		color:white;
+		font-size: 14px;
+		font-weight: bold;
 	}
 }
 @media(min-width: 760px)
@@ -138,58 +135,62 @@
 		margin-top:30px;
 		margin-bottom:30px;
 		padding: 45px 42px;
-		&__title
-		{	
-			display: block;
-			max-width: 471px;
-			width:80%;
-			align-self: ceter;
-			color:white;
-			font-size: 18px;
-			z-index: 2;
-				font-weight: 500;
-			&__two-hundred
-			{
-				position: relative;
-			}
-			&__two-hundred svg
-			{
-				position: absolute;
-				top:-20%;
-				left:-25%;
-				z-index: -1;
-			}
-			@media(max-width: 990px) 
-			{
-				position: relative;
-				bottom:15px;
-			}
-		}
-		&__input
-		{
-			width: 418px;
-			height: 40px;
-			border:none;
-			border-radius: 5px;
-			padding-left: 15px;
-			font-size: 14px;
-			color:rgba(28,41,77,0.5);
-			margin-right:10px;
-			margin-left:15px;
-		}
-		&__button
-		{
-			width: 137px;
-			height: 40px;
-			border-radius: 5px;
-			border:1px solid white;
-			font-size: 14px;
-			margin-top:10px;
-			color:white;
-			font-size: 14px;
-			font-weight: bold;
-			margin: 0;
-			padding: 0 20px;
-		}
+	}
+	.mailing__title
+	{
+		display: block;
+		max-width: 471px;
+		width:80%;
+		align-self: ceter;
+		color:white;
+		font-size: 18px;
+		z-index: 2;
+		font-weight: 500;
+	}
+	.mailing__two-hundred
+	{
+		position: relative;
+	}
+	.mailing__two-hundred svg
+	{
+		position: absolute;
+		top:-20%;
+		left:-25%;
+		z-index: -1;
+	}
+	.mailing__input
+	{
+		width: 418px;
+		height: 40px;
+		border:none;
+		border-radius: 5px;
+		padding-left: 15px;
+		font-size: 14px;
+		color:rgba(28,41,77,0.5);
+		margin-right:10px;
+		margin-left:15px;
+	}
+	.mailing__button
+	{
+		width: 137px;
+		height: 40px;
+		border-radius: 5px;
+		border:1px solid white;
+		font-size: 14px;
+		margin-top:10px;
+		color:white;
+		font-size: 14px;
+		font-weight: bold;
+		margin: 0;
+		padding: 0 20px;
+	}
+}
+
+@media(max-width: 990px) and (min-width: 760px)
+{
+	.mailing__title
+	{
+	position: relative;
+	bottom:15px;
 	}
 }
