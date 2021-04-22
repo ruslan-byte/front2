@@ -3497,17 +3497,20 @@ html {
     width: 750px;
     position: relative;
     margin: 0;
+    overflow: hidden;
   }
 
   .banners__photo {
     margin: 0;
     display: block;
-    position: absolute;
-    width: 100%;
+    position: static;
+    width: 3000px;
     height: 100%;
+    margin-left: 0px;
   }
 
   .banners__photo img {
+    float: left;
     height: 350px;
     width: 750px;
   }
@@ -3522,9 +3525,10 @@ html {
     position: absolute;
     top: 44%;
     left: 3.6%;
-    padding-top: 14px;
+    padding-top: 0;
     -webkit-border-radius: 5px;
     border-radius: 5px;
+    border: none;
   }
 
   .banners__button svg {
@@ -3548,6 +3552,7 @@ html {
     height: 2px;
     background: white;
     opacity: 0.5;
+    cursor: pointer;
   }
 
   .banners__site_active {

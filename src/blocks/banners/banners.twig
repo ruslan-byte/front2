@@ -1,23 +1,28 @@
 <div class="banners container">
 	<div class="banners__gallery">
-		<a href="#" class="banners__photo">
-			<img src="img/gallery-photo.png" alt="2=3">
-		</a>
-		<a href="#" class="banners__button">
+		<ul href="#" class="banners__photo _gallery_slider">
+			<li><img src="img/gallery-photo.png" alt="2=3"></li>
+			<li><img src="img/gallery-photo.png" alt="2=3"></li>
+			<li><img src="img/gallery-photo.png" alt="2=3"></li>
+			<li><img src="img/gallery-photo.png" alt="2=3"></li>
+		</ul>
+		<div class="banners__gallery__control _gallery_control">
+		<button href="#" class="banners__button _button_left" data-button = 'left'>
 			{% include "../../assets/svg/arrow-left.svg" %}
-		</a>
-		<a href="#" class="banners__button">
+		</button>
+		<button href="#" class="banners__button" data-button = 'right'>
 			{% include "../../assets/svg/arrow-right.svg" %}
-		</a>
+		</button>
+		</div>
 		<div class="banners__sites">
-			<a href="#" class="banners__site_active">
-			</a>
-			<a href="#" class="banners__site">
-			</a>
-			<a href="#" class="banners__site">
-			</a>
-			<a href="#" class="banners__site">
-			</a>
+			<div href="" class="banners__site _site _site_1" data-num = '1'>
+			</div>
+			<div href="#" class="banners__site _site _site_2" data-num = '2'>
+			</div>
+			<div href="#" class="banners__site _site _site_3" data-num = '3'>
+			</div>
+			<div href="#" class="banners__site _site _site_4" data-num = '4'>
+			</div>
 		</div>
 	</div>
 	<figure class ="banners__book_of_the_day">
