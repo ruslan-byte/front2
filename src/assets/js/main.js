@@ -17,7 +17,7 @@ const o2 =
 	 */
 	init()
 	{
-		sliderInit();
+		o2.slider.init();
 	},
 	/**
 	* отслеживание клика вне блока
