@@ -5,27 +5,31 @@ function sliderInit()
 	let slider = $('._gallery_slider');
 	let $button_left = $('._gallery_control button:first-child');
 	let $button_right = $('._gallery_control button:last-child');
+	disablbutton.find('path').css({
+		'fill' : '#2A3D48',
+		'fill-opacity' : '0.5'
+	});
+
 	$('._site_1').css(
 	{
 		opacity: "1",
 	})
-	$('._gallery_control').find('button').on('click', function()
+	$('._button').on('click', function()
 	{
-		let nap = ~~($(this).data('button') == 'left') || -1;
+		let nap = ~~($(this).data('route') == 'left') || -1;
 		pos += -nap;
-		sliderMove(slider,pos);
+		sliderMove(pos);
 	});
 	$('._site').on('click', function(){
 		pos = $(this).data('num')-1;
-		sliderMove(slider,pos);
+		sliderMove(pos);
 	})
 
-	function sliderMove(slider, pos,e)
+	function sliderMove(pos,e)
 	{
 		slider.animate({
-
 			'margin-left' : -pos * '750',
-		});
+		}, 300);
 		$('._site').css({
 			opacity: "0.5",
 		});
@@ -34,18 +38,38 @@ function sliderInit()
 		});
 		if(pos == 0){
 			disablbutton.removeAttr('disabled');
+			buttunDisabledCss(false);
 			$button_left.attr('disabled','disabled');
 			disablbutton = $button_left;
+			buttunDisabledCss(true);
 		}
 		else if(pos == 3){
 			disablbutton.removeAttr('disabled');
+			buttunDisabledCss(false);
 			$button_right.attr('disabled','disabled');
 			disablbutton = $button_right;
+			buttunDisabledCss(true);
 		}
 		else if(!(disablbutton == undefined)){
+			buttunDisabledCss(false);
 			disablbutton.removeAttr('disabled');
 		}
-
+	}
+	function buttunDisabledCss(add)
+	{
+		if(add){
+			disablbutton.find('path').css({
+			'fill' : '#2A3D48',
+			'fill-opacity' : '0.5'
+			});
+		}
+		else
+		{
+			disablbutton.find('path').css({
+			'fill' : '#1C294D',
+			'fill-opacity' : '1'
+			});
+		}
 	}
 }
 
