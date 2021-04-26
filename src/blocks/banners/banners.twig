@@ -1,5 +1,5 @@
 <div class="banners container">
-	<div class="banners__gallery">
+	<div class="banners__gallery _photo">
 		<ul href="#" class="banners__photo _gallery_slider">
 			<li><img src="img/gallery-photo.png" alt="2=3"></li>
 			<li><img src="img/gallery-photo.png" alt="2=3"></li>
@@ -7,7 +7,7 @@
 			<li><img src="img/gallery-photo.png" alt="2=3"></li>
 		</ul>
 		<div class="banners__gallery__control _gallery_control">
-		<button href="#" class="banners__button _button _button_left" data-route = "left" onclick ="o2.slider.button_click(this)"  disabled="disabled"  >
+		<button href="#" class="banners__button _button _button_left" data-route = "left" onclick ="o2.slider.button_click(this)"  disabled="disabled" style ="fill:#2A3D48; fill-opacity: 0.5" >
 			{% include "../../assets/svg/arrow-left.svg" %}
 		</button>
 		<button href="#" class="banners__button _button" data-route = "right" onclick ="o2.slider.button_click(this)">
@@ -15,13 +15,13 @@
 		</button>
 		</div>
 		<div class="banners__sites">
-			<div href="" class="banners__site _site _site_1" data-num = '1'>
+			<div href="#" class="banners__site _site _site_1" data-num = '1' onclick ="o2.slider.site_click(this)" style ="opacity: 1;">
 			</div>
-			<div href="#" class="banners__site _site _site_2" data-num = '2'>
+			<div href="#" class="banners__site _site _site_2" data-num = '2' onclick ="o2.slider.site_click(this)">
 			</div>
-			<div href="#" class="banners__site _site _site_3" data-num = '3'>
+			<div href="#" class="banners__site _site _site_3" data-num = '3' onclick ="o2.slider.site_click(this)">
 			</div>
-			<div href="#" class="banners__site _site _site_4" data-num = '4'>
+			<div href="#" class="banners__site _site _site_4" data-num = '4' onclick ="o2.slider.site_click(this)">
 			</div>
 		</div>
 	</div>
